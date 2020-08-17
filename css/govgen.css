@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  font-size: 1em;
+}
+div#head {
+  background-color: green;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+div#head h1 {
+  color: white;
+  font-family: Futura, Arial, sans-serif;
+  font-size: 1em;
+  position: absolute;
+  float: left;
+  display: inline;
+  top: 20px;
+}
+span#tagline {
+  font-style: italic;
+  font-weight: lighter;
+}
+img#logo {
+  float: left;
+  display: inline;
+}
+div#nav {
+  position: absolute;
+  float: right;
+  width: 100%;
+}
+div#nav ol {
+  list-style-type: none;
+  float: right;
+  margin-top: 3em;
+}
+div#nav ol li {
+  font-weight: 700;
+  color: white;
+  display: inline;
+  font-family: Futura, Arial, sans-serif;
+  margin-right: 2.16em;
+  cursor: pointer;
+}
+div#nav a:hover {
+  background-color: yellow;
+  color: black;
+}
+div#spacer {
+  visibility: hidden;
+}
+div#body {
+  float: left;
+  display: inline;
+  width: 33.5%;
+  margin-top: 2em;
+}
+div#body p {
+  text-align: justify;
+  line-height: 1.5em;
+  font-family: Futura, Montserrat, sans-serif;
+}
+div#right {
+  float: right;
+  margin: 0 2em 0 0;
+  border: 2px solid yellow;
+  padding: 2em;
+}
+div#right img {
+  margin-left: 3.1em;
+}
+
+div#center {
+  width: 100%;
+  float: left;
+  display: block;
+  margin: 2em auto 0 auto;
+  left: 0;
+  position: relative;
+  z-index: -1;
+}
+div.no-wrap {
+  clear: both;
+}
+div.footer {
+  clear: both;
+  width: 100%;
+  background-color: Blue;
+  height: 50px;
+}
+div.footer ul {
+    text-align: center;
+    padding-top: 1em;
+}
+div.footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 2em;
+}
+div.footer ul li a {
+    color: white;
+    font-family: Futura, Montserrat, sans-serif;
+    cursor: pointer;
+}
+div.footer ul li a:hover {
+    background-color: yellow;
+    color: black;   
+}
